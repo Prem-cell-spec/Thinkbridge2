@@ -15,7 +15,8 @@ internal class Search
         switch (choice)
         {
             case 1:
-                Console.WriteLine("Enter size of integer Array");
+         
+                Console.WriteLine("Enter size of integer Array //change made by prem sawant");
                 int size = System.Int32.Parse(Console.ReadLine());
                 int[] arr = new int[size];
 
