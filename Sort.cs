@@ -16,6 +16,7 @@ public class Sort
                     int tmp = arr[i];
                     arr[i] = arr[j];
                     arr[j] = tmp;
+                    
                 }
             }
         }
@@ -119,7 +120,8 @@ public class Sort
         }
         foreach (int x in arr)
         {
-            Console.Write(x + " ");
+            Console.Write(x + " "+x);
+            
         }
     }
 
